@@ -65,3 +65,57 @@ nav > ul > li > a:hover{
 nav > ul > li a[aria-current="page"]{
     color: #E5E7EB;
 }
+
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 50%;
+}
+
+.hero__content > h1{
+    font-size: 48px;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero__content > p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #E5E7EB;
+}
+
+.hero__content > a{
+    width: fit-content;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 12px 48px;
+    background-color: #3881f6;
+    border-radius: 12px;
+    transition: background-color .4s ease;
+}
+
+.hero__content > a:hover{
+    background-color: #3855f6;
+}
+
+.hero__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.hero__image > img{
+    width: 100%;
+    border-radius: 12px;
+}

@@ -12,9 +12,9 @@
 body{
     display: flex;
     flex-direction: column;
-    /* width: 100vw; */
+    justify-content: center;
+    align-items: center;
     height: auto;
-    /* padding: 32px; */
     background-color: #1F2937;
 }
 
@@ -135,7 +135,7 @@ nav > ul > li a[aria-current="page"]{
     padding: 32px;
 }
 
-.information > h1{
+.information > h2{
     font-size: 36px;
     line-height: 1.5;
     font-weight: 900;
@@ -208,4 +208,77 @@ nav > ul > li a[aria-current="page"]{
     line-height: 1.5;
     font-weight: 500;
     color: #1F2937;
+}
+
+.CTA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 64px;
+}
+
+.CTA__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 32px 128px;
+    background-color: #3881f6;
+    border-radius: 12px;
+}
+
+.CTA__content{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.CTA__content > p:first-child{
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #F9FAF8;
+}
+
+.CTA__content > p:last-child{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #E5E7EB;
+}
+
+.CTA__container > a{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #F9FAF8;
+    padding: 12px 48px;
+    border: 1px solid #F9FAF8;
+    border-radius: 12px;
+    transition: background-color .4s ease;
+}
+
+.CTA__container > a:hover{
+    background-color: #3855f6;
+    border-color: #3855f6;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+footer > p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+
+
+header, main, footer{
+    width: 100%;
+    max-width: 1350px;
 }

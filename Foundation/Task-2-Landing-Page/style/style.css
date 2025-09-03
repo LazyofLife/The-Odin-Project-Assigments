@@ -176,3 +176,36 @@ nav > ul > li a[aria-current="page"]{
     color: #3881f6;
     border-color: #3881f6;
 }
+
+.testimonial{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 32px;
+    background-color: #E5E7EB;
+}
+
+.testimonial > blockquote{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+}
+
+.testimonial > blockquote > p{
+    font-size: 36px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    color: #1F2937;
+}
+
+.testimonial > blockquote > cite{
+    align-self: flex-end;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #1F2937;
+}
